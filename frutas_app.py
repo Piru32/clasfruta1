@@ -53,14 +53,14 @@ st.subheader("Distancias")
 st.write("🍎 Manzana:", distancia_manzana)
 st.write("🍌 Banano:", distancia_banano)
 st.write("🍊 Naranja:", distancia_naranja)
-st.write("🍑 Borojo:", distancia_borojo)
+st.write("🌰 Borojo:", distancia_borojo)
 
 # Buscamos la distancia menor
 distancias = {
     "🍎 Manzana": distancia_manzana,
     "🍌 Banano": distancia_banano,
     "🍊 Naranja": distancia_naranja,
-    "🍑 Borojo": distancia_borojo
+    "🌰 Borojo": distancia_borojo
 }
 
 fruta_mas_parecida = min(distancias, key=distancias.get)
